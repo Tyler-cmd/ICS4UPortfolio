@@ -1,0 +1,83 @@
+#Ski {
+    display: block;
+    margin: auto;
+    width: 300px;
+    z-index: 0;
+  }
+
+  h1 {
+    position: absolute;
+    top: 50%;
+    right: 50%;
+    transform: translate(50%,50%);
+    font-family: Arial;
+    z-index: 1;
+  }
+  
+  .TopPage {
+    background-color: forestgreen;
+    position: relative;
+    text-align: center;
+  }
+
+  .Bottomhalf {
+    width: 1190px;
+  }
+
+  ul {
+    list-style-type: none;
+    padding: 10px;
+    margin: 0px;
+  }
+
+  ul a:hover{
+    background-color: rgb(8, 253, 0);
+  }
+
+  .Links {
+    display: block;
+    float: right;
+    position: fixed;
+    top: 208px;
+    right: 10px;
+    background-color: rgb(255, 0, 0);
+  }
+
+  h4 {
+    padding-left: 10px;
+    color: white;
+  }
+
+  #Intro_to_JS ,#Intro_to_HTMLCSS,#advanced_games_and_visualizations,#Advanced_JSNatural_Simulations, #Computer_Science_Principles_programming,#Learning_to_Learn ,#Gitn_Going ,#Algorithms_Exploration_-_Cubing_Workflow ,#Free_Code_Camp,#Summative {
+    padding-bottom: 50px;
+  }
+
+  #red {
+    color: red;
+  }
+
+  #Image2 {
+    width: 500px;
+    position: absolute;
+    top: 25px;
+    padding-left: 40px;
+  }
+
+  #Keyboardimg {
+    width: 300px;
+    height: 250px;
+    position: absolute;
+    right: 310px;
+    top: 8px;
+  }
+
+  #blue {
+    background-color: rgb(121, 121, 201);
+  }
+
+  #Gameoflife {
+    width: 600px;
+    position: absolute;
+    left: 608px;
+    top: 4300px;
+  }
